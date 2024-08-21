@@ -1,1 +1,3 @@
-# Pr-cticoHTML
+# PracticoHTML
+
+Primer práctico HTML, página web utilizando elementos y etiquetas básicas.
