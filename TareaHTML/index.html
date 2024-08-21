@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TareaHTML</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        header, footer{
+            text-align: center;
+            background-color: rgb(156, 200, 238);
+        }
+        main{
+            padding: 10px;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+        tfoot {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>1. Estructura Básica del Documento HTML</h1>
+    </header>
+
+
+    <main>
+        <section>
+            <h1>2. Encabezados y propiedades del texto</h1>
+            <h2><mark> Este es un texto remarcado</mark></h2>
+            <h3><strong>Este es un texto en negrita</strong></h3>
+            <h4><em>Este es un texto en cursiva</em></h4>
+            <h5 style="text-decoration: underline;">Este es un texto subrayado</h5>
+            <h6 style="text-decoration: line-through;">Este es un texto tachado</h6>
+        </section>  
+
+        <section>
+            <h2>3. Divisiones y agrupaciones de contenido.</h2>
+            <div>
+                <h3>Sección 1</h3>
+                <p>Contenido de la primera seccion agrupada en un div</p>
+            </div>
+            
+            <div>
+                <h3>Sección 2</h3>
+                <p>Contenido de la segunda sección agrupada en un div</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>4. Enlaces y listas</h2>
+            <nav>
+                <a href="https://www.google.com" target="_blank">Ir a google</a><br>
+                <h3>Enlaces internos</h3>
+                <a href="Enlace1.html">Ir a catálogo</a>
+                <a href="Enlace2.html">Ir al carrito</a>
+            </nav>
+
+            <ol>
+                <h3>Lista ordenada:</h3>
+                <li>Elemento</li>
+                <li>Elemento</li>
+                <li>Elemento</li>
+            </ol>
+
+            <ul>
+                <h2>Lista desordenada:</h2>
+                <li>Elemento uno</li>
+                <li>Elemento dos</li>
+                <li>Elemento tres</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Elementos multimedia</h2>
+            <img src="https://aguacatec.es/wp-content/uploads/2023/10/e5a978b8-6772-4c85-a50e-15581af7d483.png" alt="Imagen de palta con lentes" width="300px" height="300px">
+            <video src="https://www.shutterstock.com/shutterstock/videos/1057261360/preview/stock-footage-gradient-red-and-blue-neon-digital-line-strips-flowing-on-black-background-k-d-seamless-loop.webm" width="300px" height="300px" autoplay controls></video>
+            <audio src="multimedia/Spaghetti Eastern - John Patitucci.mp3" controls></audio>
+        </section>
+
+        <section>
+            <h2>6. Tablas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                        <th>Columna 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fila 1, celda 1</td>
+                        <td>Fila 1, celda 2</td>   
+                        <td>Fila 1, celda 3</td>
+                    </tr>
+                    <tr>
+                        <td>Fila 2, celda 1</td>
+                        <td>Fila 2, celda 2</td>   
+                        <td>Fila 2, celda 3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td>Total 1</td>
+                    <td>Total 2</td>
+                    <td>Total 3</td>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h2>7. Formularios</h2>
+            <form>
+                <div>
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Ingrese su nombre" />
+                </div>
+                
+                <div>
+                    <label>Email:</label>
+                    <input type="email" placeholder="example@example.com" />
+                </div>
+                
+                <div>
+                    <label>Mensaje:</label>
+                    <input type="text" placeholder="Ingrese su mensaje" />
+                </div>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Pie de página</p>
+    </footer>
+
+</body>
+</html>
